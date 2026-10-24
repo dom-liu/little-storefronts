@@ -1,0 +1,142 @@
+{
+  "name": "Pumpkin Hollow \u00b7 Little Storefronts",
+  "version": 1,
+  "status": "static-community-demo",
+  "builtAt": "2026-10-21T14:14:51.608Z",
+  "fileProtocolBrowserAcceptance": "manual-check-required",
+  "files": [
+    {
+      "file": "ASSET_LICENSE.md",
+      "bytes": 897,
+      "sha256": "98c2fcf5dc6ccd462fadbf55f2678bdd63d0cb363d040be3f74b0daf4fcd2059"
+    },
+    {
+      "file": "CREDITS.md",
+      "bytes": 1174,
+      "sha256": "8c5dc33d600a4611d14de99e1c865fdde9fb90531db4eda0e0dd8ac98396a5d1"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 1072,
+      "sha256": "d23b02ee1112ccd335f8fd892a3920e034fa9da519cd0ae154b120947798eef2"
+    },
+    {
+      "file": "PROVENANCE.html",
+      "bytes": 1342,
+      "sha256": "2d82b5dec4a40dccd45ecd9120703e53191e2706f02067d0fb7343ece85fd61d"
+    },
+    {
+      "file": "README.html",
+      "bytes": 2563,
+      "sha256": "7893edb6e2a76d05fe4f29650a2cd4982e03ed99b67c898c571e8350d095d1f4"
+    },
+    {
+      "file": "app.js",
+      "bytes": 1688581,
+      "sha256": "3e7a5359bfca9f4c0e221d064511ee4f854ddd347d4dfcc83e0cd56b8b76606c"
+    },
+    {
+      "file": "assets/model-data.js",
+      "bytes": 4895857,
+      "sha256": "ca937fe9210ed0c1d16a7f1965cfdaab989fb7215af9965d4880592dfa2aaf1d"
+    },
+    {
+      "file": "assets/photos/apple-cider-small.png",
+      "bytes": 102506,
+      "sha256": "fb4af071d9c2cf81a8211750d1b3b03d82d62f06dcd9006e3cce324d08808199"
+    },
+    {
+      "file": "assets/photos/apple-cider.png",
+      "bytes": 422704,
+      "sha256": "477ea2ba9003addd911ae44fc71b6395d928527bddfa523830346c4573b8361e"
+    },
+    {
+      "file": "assets/photos/autumn-mug.png",
+      "bytes": 219006,
+      "sha256": "78401a8b0b085a616a8a8194319dd7a29b280a6d769bb7fd6bb4b46e7953c74c"
+    },
+    {
+      "file": "assets/photos/building.png",
+      "bytes": 706403,
+      "sha256": "8a4637c25a5929df66bb9449eb5fe5dd102e6a50bfc78440a0b753f2b9eb0401"
+    },
+    {
+      "file": "assets/photos/garden.png",
+      "bytes": 1540386,
+      "sha256": "58584dd9dbb3b5a2c50ab2233131e7550f7d73c31acf5e5ec1683cb62ba99076"
+    },
+    {
+      "file": "assets/photos/maple-jar.png",
+      "bytes": 383178,
+      "sha256": "538d9079213ab3345adf8505f9de314bbdd9d3c8d2a2b9cd4396b73c0bcb55f8"
+    },
+    {
+      "file": "assets/photos/pumpkin-box.png",
+      "bytes": 391842,
+      "sha256": "0c6f8612d02cb5ede7e186fb689eac021ce7815eab937afe162619cbae95122a"
+    },
+    {
+      "file": "assets/photos/pumpkin-pie.png",
+      "bytes": 205994,
+      "sha256": "2980a4ce865c811a4f1d140f9d2bbc2bb355b4a21457fedb0797ae7a84174026"
+    },
+    {
+      "file": "assets/photos/spice-latte-small.png",
+      "bytes": 113219,
+      "sha256": "ac0ed487454759873de9436979b4eb29e53c4ffcf89046ef072d961fe11df0bb"
+    },
+    {
+      "file": "assets/photos/spice-latte.png",
+      "bytes": 495832,
+      "sha256": "e5ed7941ba3ecde9bc11338a7e2704a3c527bea2dfabc75cfba389d0b450c1e4"
+    },
+    {
+      "file": "favicon.svg",
+      "bytes": 269,
+      "sha256": "08bd9572ad70a7d09e2aa30f9a96dba0da62fffa8b1c9d9175f1ee0969937f1f"
+    },
+    {
+      "file": "index.html",
+      "bytes": 736,
+      "sha256": "fe8dd2584bdf89c3c1e57748cbb243dfd97a7b2621339324072bf49610a51386"
+    },
+    {
+      "file": "licenses/THIRD_PARTY_NOTICES.txt",
+      "bytes": 91604,
+      "sha256": "2e2cd7ddaa98ca7ee60db066b80b18a4a62315a2f30dc0928b281513f5693db2"
+    },
+    {
+      "file": "licenses/UI-history-LICENSE.md",
+      "bytes": 2149,
+      "sha256": "e2dda662226e7c1ef0f3941dabefbc50601e79e8b8f017e6d0f553248fdccdc6"
+    },
+    {
+      "file": "licenses/fraunces-OFL.txt",
+      "bytes": 4391,
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    },
+    {
+      "file": "licenses/great-vibes-OFL.txt",
+      "bytes": 4399,
+      "sha256": "61093a21f5e63dedf54222b3c09997e54c0fe43e3851d21386e02ddcbc246d49"
+    },
+    {
+      "file": "licenses/notoserifsc-OFL.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+    },
+    {
+      "file": "shop-config.js",
+      "bytes": 1815,
+      "sha256": "852e0dfd7f330a29b418c922b1ad5291be03921a49a6cd4b60badf78665f3e55"
+    },
+    {
+      "file": "style.css",
+      "bytes": 843590,
+      "sha256": "b72b719764325ef752f63e0420a1bf3e58936ef121a034b0b2c2a6613690693f"
+    }
+  ],
+  "distributionVersion": "0.1.0",
+  "distributionPreparedAt": "2026-10-24T01:34:19.240845+00:00",
+  "distributionNotes": "Identical per-package license copies consolidated with all notice texts retained; duplicate standalone GLBs omitted; responsive thumbnails retained."
+}

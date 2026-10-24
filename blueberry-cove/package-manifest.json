@@ -1,0 +1,152 @@
+{
+  "name": "Blueberry Cove \u00b7 Little Storefronts",
+  "version": 1,
+  "status": "static-community-demo",
+  "builtAt": "2026-10-21T14:14:49.530Z",
+  "fileProtocolBrowserAcceptance": "manual-check-required",
+  "files": [
+    {
+      "file": "ASSET_LICENSE.md",
+      "bytes": 897,
+      "sha256": "98c2fcf5dc6ccd462fadbf55f2678bdd63d0cb363d040be3f74b0daf4fcd2059"
+    },
+    {
+      "file": "CREDITS.md",
+      "bytes": 1174,
+      "sha256": "8c5dc33d600a4611d14de99e1c865fdde9fb90531db4eda0e0dd8ac98396a5d1"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 1072,
+      "sha256": "d23b02ee1112ccd335f8fd892a3920e034fa9da519cd0ae154b120947798eef2"
+    },
+    {
+      "file": "PROVENANCE.html",
+      "bytes": 1342,
+      "sha256": "9feb29691bba4ebc1b6d8efc58d38f4c15a2898ca7f93ff93199c25282765b2d"
+    },
+    {
+      "file": "README.html",
+      "bytes": 2563,
+      "sha256": "a9d1a8068a42f4b0780da88f06db692c110dc427688ad7f64ae162f5f234a44b"
+    },
+    {
+      "file": "app.js",
+      "bytes": 1688575,
+      "sha256": "a1f6b779664781dce727703087b158582a65cea88c8719652b3b6c99b0dba915"
+    },
+    {
+      "file": "assets/model-data.js",
+      "bytes": 6433266,
+      "sha256": "f7f22afeef7ff18e7ab5e3503d11b8be26360b211915f1b798839df546f3b02c"
+    },
+    {
+      "file": "assets/photos/blueberry-jar-small.png",
+      "bytes": 145420,
+      "sha256": "7fdad98934b3bcc42c0ceed2790cde6ef11b6ac559a51db1b54791c10233aacb"
+    },
+    {
+      "file": "assets/photos/blueberry-jar.png",
+      "bytes": 703989,
+      "sha256": "cd535bab38520a1f3ebd1ead99ab2b27aa11df52eec61e9e20957f3c1cc1f21b"
+    },
+    {
+      "file": "assets/photos/blueberry-latte-small.png",
+      "bytes": 101224,
+      "sha256": "1c692027ab18b60b147bb308326ede3202ddeacc3d29d72ef21d6259b9e73a2b"
+    },
+    {
+      "file": "assets/photos/blueberry-latte.png",
+      "bytes": 416692,
+      "sha256": "c850ec8a968dfb2fb6af2c7bc91e1c779e93cea0e64b43e0695e206aa9614e88"
+    },
+    {
+      "file": "assets/photos/blueberry-pie-small.png",
+      "bytes": 85229,
+      "sha256": "314979badc8c849a3b7d42050d37150c2b81047a7782156f9346ccad76dfe056"
+    },
+    {
+      "file": "assets/photos/blueberry-pie.png",
+      "bytes": 374208,
+      "sha256": "5e2eb8c51e93eeef3256aab04f27f8d8d9210e8510f86ea5f28932d1a026d709"
+    },
+    {
+      "file": "assets/photos/building.png",
+      "bytes": 839921,
+      "sha256": "23349998dcda8f444a4e04d8f9a33c2af9e63e69a46c3670723def033efca4e6"
+    },
+    {
+      "file": "assets/photos/coastal-mug.png",
+      "bytes": 218404,
+      "sha256": "3f6d2e19dca240c7c6dbc305d944da5b4c7624bd2e431f61aba5389daac71c63"
+    },
+    {
+      "file": "assets/photos/cove-box.png",
+      "bytes": 406952,
+      "sha256": "1e9e162d7c6bc858c5d9c4204c2788f70327b72a79b560184b1eb33e61d2bb11"
+    },
+    {
+      "file": "assets/photos/garden.png",
+      "bytes": 1095452,
+      "sha256": "f11c90e3ceb774c226e43d686902825adecbc51aca89d104d29aa754aa600f77"
+    },
+    {
+      "file": "assets/photos/lemonade-small.png",
+      "bytes": 91758,
+      "sha256": "99e4586ffaba7cb70fb227faeeebe25a279ea4dc0246ecf8315f6a1452e7baa5"
+    },
+    {
+      "file": "assets/photos/lemonade.png",
+      "bytes": 425221,
+      "sha256": "701bce0206aa8aa21b17cbd52544a379b89a5cba891b19c276aad6d7f39bb2db"
+    },
+    {
+      "file": "favicon.svg",
+      "bytes": 269,
+      "sha256": "08bd9572ad70a7d09e2aa30f9a96dba0da62fffa8b1c9d9175f1ee0969937f1f"
+    },
+    {
+      "file": "index.html",
+      "bytes": 736,
+      "sha256": "e1baf7fd6afd42e786aa4a1a819b79f2af2d27716ff32cdeab0833bd16b3972e"
+    },
+    {
+      "file": "licenses/THIRD_PARTY_NOTICES.txt",
+      "bytes": 91604,
+      "sha256": "2e2cd7ddaa98ca7ee60db066b80b18a4a62315a2f30dc0928b281513f5693db2"
+    },
+    {
+      "file": "licenses/UI-history-LICENSE.md",
+      "bytes": 2149,
+      "sha256": "e2dda662226e7c1ef0f3941dabefbc50601e79e8b8f017e6d0f553248fdccdc6"
+    },
+    {
+      "file": "licenses/fraunces-OFL.txt",
+      "bytes": 4391,
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    },
+    {
+      "file": "licenses/great-vibes-OFL.txt",
+      "bytes": 4399,
+      "sha256": "61093a21f5e63dedf54222b3c09997e54c0fe43e3851d21386e02ddcbc246d49"
+    },
+    {
+      "file": "licenses/notoserifsc-OFL.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+    },
+    {
+      "file": "shop-config.js",
+      "bytes": 1858,
+      "sha256": "48125aeb38491f72b5d19a43306cb906a1939790f09002573595ed58fc547759"
+    },
+    {
+      "file": "style.css",
+      "bytes": 843590,
+      "sha256": "b72b719764325ef752f63e0420a1bf3e58936ef121a034b0b2c2a6613690693f"
+    }
+  ],
+  "distributionVersion": "0.1.0",
+  "distributionPreparedAt": "2026-10-24T01:34:19.251309+00:00",
+  "distributionNotes": "Identical per-package license copies consolidated with all notice texts retained; duplicate standalone GLBs omitted; responsive thumbnails retained."
+}
