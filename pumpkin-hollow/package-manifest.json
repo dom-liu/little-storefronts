@@ -32,8 +32,8 @@
     },
     {
       "file": "app.js",
-      "bytes": 1688581,
-      "sha256": "3e7a5359bfca9f4c0e221d064511ee4f854ddd347d4dfcc83e0cd56b8b76606c"
+      "bytes": 1688621,
+      "sha256": "2544d4dee6a20120f35fc8aba44b0474979437a264b9f3d8e79342cd5d4a3750"
     },
     {
       "file": "assets/model-data.js",
@@ -132,11 +132,27 @@
     },
     {
       "file": "style.css",
-      "bytes": 843590,
-      "sha256": "b72b719764325ef752f63e0420a1bf3e58936ef121a034b0b2c2a6613690693f"
+      "bytes": 850395,
+      "sha256": "57eab41b60ce432786325241219b1bfbc9e62c637918225ad4be368c93fc9cbb"
     }
   ],
   "distributionVersion": "0.1.0",
-  "distributionPreparedAt": "2026-10-24T01:34:19.240845+00:00",
-  "distributionNotes": "Identical per-package license copies consolidated with all notice texts retained; duplicate standalone GLBs omitted; responsive thumbnails retained."
+  "distributionPreparedAt": "2026-10-24T09:48:27.034754+00:00",
+  "distributionNotes": "Identical per-package license copies consolidated with all notice texts retained; duplicate standalone GLBs omitted; responsive thumbnails retained.",
+  "presentationRefinement": {
+    "date": "2026-10-24",
+    "buildingExtent": 2.43,
+    "buildingLookAt": [
+      0,
+      -0.12,
+      0
+    ],
+    "desktopHomeInset": {
+      "left": "8%",
+      "right": "18%"
+    },
+    "buildingArtworkFilter": "saturate(1.12) contrast(1.06) brightness(.95)",
+    "notes": "Building framing and grade refined in the static bundle. Home composition is centered; detail panels retain their original building column. Product cameras, embedded models and motion timing are unchanged.",
+    "polish": "Added theme-colored paper framing, card depth and aligned product rows. Short-desktop layout is compact; Pumpkin mobile height follows content to keep the footer below the cards. Model data and runtime interactions are unchanged in this polish pass."
+  }
 }

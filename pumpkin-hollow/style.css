@@ -14387,3 +14387,177 @@
     }
   }
 }
+
+/* Desktop composition: keep the storefront between the introduction and cards.
+   Only building artwork receives the richer grade; UI and product viewers keep
+   their own colors. The same grade applies to the illustration fallback. */
+[data-scene-kind="building"] > [role="img"] canvas,
+[data-scene-kind="building"] > [role="img"] img {
+  filter: saturate(1.12) contrast(1.06) brightness(.95);
+}
+@media (min-width: 1024px) {
+  #main:has([aria-label="Highlights"]) > div:has(> div > figure[data-scene-kind="building"]) {
+    left: 8%;
+    right: 18%;
+  }
+}
+
+/* Paper, ink and product rhythm for the two static storefront deliveries. */
+[data-storefront="pumpkin"] {
+  --store-paper: #fffaf1;
+  --store-wash: #f4ead9;
+  --store-ink: #533723;
+  --store-line: #dfc9ab;
+  --store-tint: #fae9ce;
+  --store-shadow: #79522b12;
+}
+[data-storefront="coastal"] {
+  --store-paper: #fffdf3;
+  --store-wash: #efeddf;
+  --store-ink: #334e71;
+  --store-line: #ccd3cd;
+  --store-tint: #e5edf5;
+  --store-shadow: #344e7112;
+}
+.dark [data-storefront] {
+  --store-paper: #26241f;
+  --store-wash: #191914;
+  --store-ink: #ecdbc1;
+  --store-line: #4b493e;
+  --store-tint: #34352e;
+  --store-shadow: #00000030;
+}
+[data-storefront] #main h1 { color: var(--store-ink); }
+[data-storefront] [aria-label="Highlights"] {
+  scrollbar-width: thin;
+  scrollbar-color: var(--store-line) transparent;
+}
+[data-storefront="pumpkin"] aside[aria-label="Highlights"],
+[data-storefront="coastal"] [aria-label="Highlights"] article {
+  border: 1px solid var(--store-line);
+  box-shadow: 0 5px 18px var(--store-shadow), inset 0 1px 0 #ffffff80;
+}
+[data-storefront="pumpkin"] aside[aria-label="Highlights"] {
+  background: var(--store-paper);
+  padding: 16px;
+  gap: 16px;
+}
+[data-storefront="pumpkin"] aside[aria-label="Highlights"] > header {
+  background: linear-gradient(135deg, var(--store-tint), var(--store-paper));
+  border: 1px solid var(--store-line);
+  border-radius: 16px;
+  padding: 16px;
+  gap: 6px;
+}
+[data-storefront="pumpkin"] aside[aria-label="Highlights"] > header h2 {
+  color: var(--store-ink);
+}
+[data-storefront="pumpkin"] aside[aria-label="Highlights"] > header > a {
+  padding: 0;
+}
+[data-storefront="pumpkin"] aside[aria-label="Highlights"] > div > a[aria-label] {
+  display: block;
+  padding: 8px 3px;
+  background: linear-gradient(var(--store-paper), color-mix(in srgb, var(--store-tint) 45%, var(--store-paper)));
+  border: 1px solid color-mix(in srgb, var(--store-line) 55%, transparent);
+  border-radius: 12px;
+}
+[data-storefront="pumpkin"] aside[aria-label="Highlights"] a[aria-label] > span,
+[data-storefront="pumpkin"] aside[aria-label="Highlights"] a[aria-label] > span > span {
+  display: block;
+  width: 100%;
+}
+[data-storefront="pumpkin"] aside[aria-label="Highlights"] a[aria-label] span:has(> img) {
+  display: grid;
+  grid-template-rows: 64px minmax(2.6em, auto) auto;
+  align-items: center;
+  gap: 6px;
+}
+[data-storefront="pumpkin"] aside[aria-label="Highlights"] a[aria-label] img {
+  width: 64px;
+  height: 64px;
+  max-width: 100%;
+}
+[data-storefront="coastal"] [aria-label="Highlights"] {
+  border-radius: 0;
+  padding: 2px;
+}
+[data-storefront="coastal"] [aria-label="Highlights"] article:first-child {
+  background: linear-gradient(140deg, var(--store-paper), var(--store-tint));
+}
+[data-storefront="coastal"] [aria-label="Highlights"] article:not(:first-child) {
+  background: var(--store-paper);
+}
+[data-storefront="coastal"] [aria-label="Highlights"] article:nth-child(2) li > a {
+  grid-template-rows: auto 45px auto;
+  align-items: center;
+}
+[data-storefront="coastal"] [aria-label="Highlights"] li > a > span:first-child {
+  background: color-mix(in srgb, var(--store-tint) 55%, var(--store-paper));
+  border: 1px solid color-mix(in srgb, var(--store-line) 45%, transparent);
+}
+@media (min-width: 1024px) {
+  [data-storefront] { display: flow-root; background: var(--store-wash); }
+  [data-storefront] > div:has(> header) {
+    width: calc(100% - 24px);
+    height: calc(100dvh - 24px);
+    min-height: 0;
+    margin: 12px auto;
+    border: 5px solid var(--store-paper);
+    border-radius: 28px;
+    background: radial-gradient(ellipse at 45% 58%, var(--store-tint), transparent 60%), var(--store-paper);
+    box-shadow: 0 8px 24px var(--store-shadow);
+  }
+  [data-storefront] > div:has(> header) > footer {
+    background: color-mix(in srgb, var(--store-tint) 30%, var(--store-paper));
+    border: 1px solid var(--store-line);
+    border-radius: 14px;
+    padding-inline: 12px;
+  }
+}
+@media (min-width: 1024px) and (max-height: 800px) {
+  [data-storefront="pumpkin"] aside[aria-label="Highlights"] { padding: 12px; gap: 10px; }
+  [data-storefront="pumpkin"] aside[aria-label="Highlights"] > header { padding: 12px; }
+  [data-storefront="pumpkin"] aside[aria-label="Highlights"] > header > a img { width: 56px; height: 56px; }
+  [data-storefront="pumpkin"] aside[aria-label="Highlights"] a[aria-label] span:has(> img) { grid-template-rows: 48px minmax(2.6em, auto) auto; }
+  [data-storefront="pumpkin"] aside[aria-label="Highlights"] a[aria-label] img { width: 48px; height: 48px; }
+  [data-storefront="coastal"] [aria-label="Corner"] ul { gap: 6px; }
+  [data-storefront="coastal"] [aria-label="Corner"] a { min-height: 36px; }
+  [data-storefront="coastal"] [aria-label="Highlights"] > div { gap: 8px; }
+  [data-storefront="coastal"] [aria-label="Highlights"] article { padding: 10px; gap: 6px; }
+  [data-storefront="coastal"] [aria-label="Highlights"] article:first-child img { height: 76px; }
+  [data-storefront="coastal"] [aria-label="Highlights"] article:first-child [aria-hidden="true"] > p { font-size: 18px; line-height: 1.2; }
+  [data-storefront="coastal"] [aria-label="Highlights"] article:not(:first-child) img { height: 36px; }
+  [data-storefront="coastal"] [aria-label="Highlights"] article header a { min-height: 32px; }
+}
+@media (max-width: 480px) {
+  [data-storefront="pumpkin"] aside[aria-label="Highlights"] > div:has(> a[aria-label]) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  [data-storefront="pumpkin"] aside[aria-label="Highlights"] { padding: 12px; }
+}
+
+/* Let the mobile document grow with its cards instead of stretching the
+   desktop percentage-height grid; this also keeps the footer below content. */
+@media (max-width: 1023px) {
+  [data-storefront="pumpkin"] > div:has(> header) {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 100dvh;
+    gap: 16px;
+  }
+  [data-storefront="pumpkin"] #main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 0;
+    gap: 20px;
+  }
+  [data-storefront="pumpkin"] #main > div:not([data-building-anchor]) {
+    height: auto;
+    gap: 24px;
+  }
+  [data-storefront="pumpkin"] > div:has(> header) > footer {
+    margin-top: 8px;
+    padding-block: 12px;
+  }
+}
